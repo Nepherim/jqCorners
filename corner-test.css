@@ -1,0 +1,46 @@
+html,body {
+	margin:0;
+	padding:0;
+	color:#000;
+	background:#fff url(bg.gif);
+	}
+body {
+	padding:10px;
+	font:76%/135% "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+	}
+p {margin:1em 0;}
+#labfooter {
+	text-align:center;
+	clear:both;
+	}
+
+/* You can use different borders for different boxes on the same page. Just adjust the CSS. The following is an example that uses the GIF images instead of the PNG images. Note that you can also adjust borders, heights and paddings this way. Remember to adjust the IE CSS as well. */
+.two {
+	width:45%;
+	float:left;
+	}
+.three {
+	width:45%;
+	float:right;
+	}
+.three .i1,
+.three .i2 {
+	background-image:url(borders.gif);
+	}
+.three .bt,
+.three .bt div,
+.three .bb,
+.three .bb div {
+	background-image:url(box.gif);
+	}
+
+/* Just a bit of styling for this example. Adjust as you wish. */
+.cb h1 {
+	margin:0 -10px;
+	padding:0.3em 10px;
+	background:#efece6;
+	font:bold 1.2em/1 Arial, Helvetica, sans-serif;
+	}
+.cb_contentWrap {
+	padding:0 10px;
+	}

@@ -1,0 +1,32 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+        "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+   <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+
+   <script type="text/javascript"><!--
+      $(document).ready(function(){
+//         $(".a")
+//            .wrap('<div class="outter' +"></div>')
+//            .removeClass().addClass("z");
+         $(".a")
+            .each(function(i){
+               $(this).wrap('<div class="outter ' +$(this).attr("class")+ '"></div>')
+               .removeClass().addClass("z");
+            });
+      });
+   //--></script>
+
+</head>
+<body>
+
+<div id="org1" class="a b">
+	<p>Est etiam processus dynamicus qui sequitur mutationem! Qui sequitur mutationem consuetudium lectorum Mirum est notare quam! Mirum est notare quam littera gothica quam nunc putamus parum claram anteposuerit, tempor cum soluta nobis eleifend option congue nihil imperdiet doming, decima Eodem modo typi qui nunc nobis videntur parum clari fiant sollemnes. Nihil imperdiet doming id quod mazim placerat facer possim assum Typi non habent.</p>
+</div>
+
+<div id="org2" class="a c">
+	<p>Est etiam processus dynamicus qui sequitur mutationem! Qui sequitur mutationem consuetudium lectorum Mirum est notare quam! Mirum est notare quam littera gothica quam nunc putamus parum claram anteposuerit, tempor cum soluta nobis eleifend option congue nihil imperdiet doming, decima Eodem modo typi qui nunc nobis videntur parum clari fiant sollemnes. Nihil imperdiet doming id quod mazim placerat facer possim assum Typi non habent.</p>
+</div>
+
+</body>
+</html>
